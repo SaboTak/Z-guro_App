@@ -8,35 +8,40 @@
     <title>Z-Guro</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-12 nad">
-            <nav class="navbar">
-                <a class="navbar-brand" href="index.html">
-                  <img src="../Src/img/logo.PNG" alt="">
-                </a>
-                <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="noticias.html">Noticias</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="estadisticas.html">Estadisticas</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+  <div class="nad">
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">
+          <img src="../Src/img/logo.PNG" alt="">
+        </a>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estadisticas.html">Estadisticas</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+    <div class="container">
+      <div class="row">
         <div class="col-6">
             <div class="formhome">
               <form action="">
                 <div class="form-group">
                   <select class="form-control" id="Eps">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option value="alianSalud_eps">Alian Salud</option>
+                    <option value="nueva_eps">Nueva Eps</option>
+                    <option value="ambuq_eps">Ambuq Eps</option>
+                    <option value="mutalser_eps">Mutualser</option>
+                    <option value="cajacopi_eps">Cajacopi</option>
+                    <option value="coomeva_eps">Coomeva</option>
+                    <option value="coosalud_eps">Coosalud</option>
+                    <option value="medimas_eps">Medimas</option>
+                    <option value="saludtotal_eps">Saludtotal</option>
                   </select>
                 </div>
                 <div class="form-group">
@@ -45,9 +50,11 @@
                     <option>Enfermedad Comun</option>
                   </select>
                 </div>
+                <button type="submit" class="btn btn-primary mb-2">¡Busquemos!</button>
               </form>
             </div>
         </div> 
+    </div>
     </div>
 </body>
 </html>
