@@ -10,7 +10,6 @@
 
 
 /* Index */
-
 body{
     background-image: url(../Src/img/background-home.jpg);
     background-color: white;
@@ -20,7 +19,6 @@ body{
     background-attachment: fixed;
 
 }
-
 .formhome{
     margin-top: 15%;
     margin-left: 15%;
@@ -36,6 +34,7 @@ body{
 #containerClinicas {
     display: flex;
     flex-direction: column;
+    margin: 0px 20px 0px 20px;
 }
 
 .clinicaCard {
@@ -60,6 +59,12 @@ body{
 
 /* Mapa */
 
+.backgroundMap{
+    background-image: url("../Src/img/background-map.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 /* */
@@ -67,7 +72,17 @@ body{
 
 
 /* Noticias */
-
+.imgBackGNews {
+    width: 40rem;
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 20rem;
+}
+.backGNews {
+    background-image: url("../Src/img/backnews.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
 
 /* */
 
