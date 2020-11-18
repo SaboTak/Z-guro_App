@@ -59,6 +59,12 @@ body{
 
 /* Mapa */
 
+.backgroundMap{
+    background-image: url("../Src/img/background-map.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 /* */
