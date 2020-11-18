@@ -14,6 +14,28 @@
 
 /* Clinica */
 
+#containerClinicas {
+    display: flex;
+    flex-direction: column;
+}
+
+.clinicaCard {
+    background: #00BFBA;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.clinicaCard>a>p>span {
+    font-size: 20px;
+    display: block;
+}
+.clinicaCard>a {
+    text-decoration: none;
+    color: white;
+}
 
 /* */
 
