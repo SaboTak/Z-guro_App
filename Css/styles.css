@@ -1,31 +1,12 @@
 /* Variables Globales */
-.nav{
-    font-size: 25px;
-}
-.navbar{
-    background-color:  rgba(255, 255, 225, 0.5);
-}
+
 
 /* */
 
 
 /* Index */
 
-body{
-    background-image: url(../Src/img/background-home.jpg);
-    background-color: white;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
-}
-
-.formhome{
-    margin-top: 15%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 
 
 
@@ -33,28 +14,6 @@ body{
 
 /* Clinica */
 
-#containerClinicas {
-    display: flex;
-    flex-direction: column;
-}
-
-.clinicaCard {
-    background: #00BFBA;
-    padding: 15px;
-    margin-top: 40px;
-    border-radius: 40px;
-    text-align: center;
-    
-}
-
-.clinicaCard>a>p>span {
-    font-size: 20px;
-    display: block;
-}
-.clinicaCard>a {
-    text-decoration: none;
-    color: white;
-}
 
 /* */
 
@@ -67,7 +26,17 @@ body{
 
 
 /* Noticias */
-
+.imgBackGNews {
+    width: 40rem;
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 20rem;
+}
+.backGNews {
+    background-image: url("../Src/img/backnews.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
 
 /* */
 
